@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Médicos</title>
+    <link rel="stylesheet" href="../Css/styles.css">
+</head>
+<>
+    <header>
+        <div class="menu">
+    <nav>
+        <a href="../html/index.html">Home</a>
+        <a href="../html/cadastro_pacientes.html">Cadastro Pacientes</a>
+        <a href="../html/especialidades.html">Especialidades Médicas</a>
+        <a href="../html/contatos.html">Contatos</a>
+    </nav>
+    </div>
+    </header>
+    <div class="form-container">
+        <h1>Cadastro de Especialidades Médicas</h1>      
+        <main>
+        <form id="form-med">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" class="form-field"><br>
+
+            <label for="especialidade">Especialidade:</label>
+            <select id="especialidade" name="especialidade" required>
+                <option value="cardiologia">Cardiologia</option>
+                <option value="dermatologia">Dermatologia</option>
+                <option value="neurologia">Neurologia</option>
+                <option value="ortopedia">Ortopedia</option>
+                <option value="pediatria">Pediatria</option>
+            </select>
+        </header>
+    </div>
+        <input type="submit" id="btnBuscar" value="Buscar" class="button">
+        <input type="submit" id="btnCadastrar" value="Cadastrar"class="button">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Clínica Balala. Todos os direitos reservados.</p>
+        <p><a href="../html/contatos.html">Contatos</a> | <a href="../html/politica_privacidade.html">Política de Privacidade</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

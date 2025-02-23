@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Cadastro</title>
+    <link rel="stylesheet" href="../Css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+    <nav>
+        <a href="../html/index.html">Home</a>
+        <a href="../html/cadastro_pacientes.html">Cadastro Pacientes</a>
+        <a href="../html/especialidades.html">Especialidades Médicas</a>
+        <a href="../html/contatos.html">Contatos</a>
+        <a href="../html/login.html" class="login-button">Login</a>
+    </nav>
+    </div>
+    </header>
+</header>
+    <div class="cadastro">
+        <h1>Bem-vindo ao Portal de Cadastro da Clínica Balala</h1>
+            <p>Use a navegação para acessar as seções de cadastro de pacientes e especialidades médicas.</p>
+    
+        <h2>Cadastro de Pacientes</h2>
+    </div>
+    <div class="form-cadastro">
+    <form>
+            <label for="fullname">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" class="form-field">>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" class="form-field">>
+
+            <label for="telefone">Telefone:</label><br>
+            <input type="number" id="telefone" name="telefone" class="form-field">>
+
+            <label for="birthdate">Data de Nascimento:</label><br>
+            <input type="date" id="birthdate" name="birthdate" class="form-field"><br>
+            <label for="gender">Sexo:</label><br>
+            <select id="gender" name="gender" class="form-field">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select><br>
+            
+            <label for="city">Cidade:</label><br>
+            <input type="text" id="city" name="city" class="form-field"><br>
+            
+            <label for="neighborhood">Bairro:</label><br>
+            <input type="text" id="neighborhood" name="neighborhood" class="form-field"><br>
+            
+            <label for="zipcode">CEP:</label><br>
+            <input type="text" id="zipcode" name="zipcode" class="form-field"><br>
+
+            <input type="submit" value="Cadastrar" class="button">
+            <input type="submit" value="Buscar" class="button">
+    </div>
+    </form>
+    <footer>
+        <p>&copy; 2025 Cliníca Balala. Todos os direitos reservados.</p>
+        <p><a href="contatos.html">Contatos</a> | <a href="politica_privacidade.html">Política de Privacidade</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
