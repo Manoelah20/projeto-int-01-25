@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="../Css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="menu">
-    <nav>
-        <a href="../html/index.html">Home</a>
-        <a href="../html/cadastro_pacientes.html">Cadastro Pacientes</a>
-        <a href="../html/especialidades.html">Especialidades Médicas</a>
-        <a href="../html/contatos.html">Contatos</a>
-    </nav>
-    </div>
+        <nav>
+        <div class="logo">
+            <img src="../assets/images/logo.png" alt="Logotipo" class="logo-image" width="80px">
+        </div> 
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cadastro_pacientes.html">Pacientes</a></li>
+       <li><a href="especialidades.html">Especialidades Médicas</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+    </ul>   
+        </nav>
     </header>
+    <main>
     <div class="form-login">
         <h1>Login</h1>           
         <form>
@@ -25,14 +29,14 @@
 
             <label for="password">Senha:</label><br>
             <input type="password" id="password" name="password" class="form-field"><br>
-            <a href="../html/forgot_password.html" class="forgot-password">Esqueci a senha</a>
+            <a href="forgot_password.html" class="forgot-password">Esqueci a senha</a>
             <input type="submit" value="Entrar" class="button">
         </form>
-    
     </div>
+    </main>
     <footer>
         <p>&copy; 2025 Clínica Balala. Todos os direitos reservados.</p>
-        <p><a href="../html/contatos.html">Contato</a> | <a href="../html/politica_privacidade.html">Política de Privacidade</a></p>
+        
     </footer>
     <script src="scripts.js"></script>
 </body>

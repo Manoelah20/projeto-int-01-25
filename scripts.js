@@ -35,3 +35,13 @@ document.getElementById("medicosForm").addEventListener("submit", function(event
     }
 });
 
+document.getElementById('expand-btn').addEventListener('click', function() {
+    var form = document.getElementById('expandable-form');
+    if (form.style.display === 'none' || form.style.display === '') {
+      form.style.display = 'block';
+    } else {
+      form.style.display = 'none';
+    }
+  });
+  
+
